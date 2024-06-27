@@ -1,5 +1,5 @@
 # Individual_Project_DIGHUM101
-# Human vs AI Text Classification
+# Human vs AI Text Classification Model
 
 ## Introduction
 
@@ -18,7 +18,7 @@ The dataset used in this project is sourced from Kaggle: [AI vs Human Text Data]
 - **Data Upload and Setup**: Uploading and setting up the dataset.
 - **Data Reduction & Visualization**: Reducing the dataset size for faster computation and visualizing class distribution.
 - **Text Examples**: Examples of both human and AI-generated text.
-- **Text Preprocessing & Splitting**: Preprocessing the text and splitting it into training and testing sets.
+- **Text Preprocessing & Splitting**: Processing part of the text and splitting it into training and testing sets.
 - **Vectorization**: Converting text data into numerical vectors using TF-IDF.
 - **Model Training and Evaluation**: Training and evaluating Logistic Regression and Decision Tree models.
 - **Results Visualization**: Visualizing confusion matrices for both models.
@@ -29,18 +29,6 @@ The dataset used in this project is sourced from Kaggle: [AI vs Human Text Data]
 
 The results indicate that the Logistic Regression model significantly outperforms the Decision Tree model in classifying text as either human or AI-generated. Logistic Regression achieved an accuracy of 97.22% on raw text and 96.70% on processed text, with F1 scores of 97.20% and 96.66%, respectively. In contrast, the Decision Tree model had an accuracy of 86.38% on raw text and 82.85% on processed text, with F1 scores of 85.86% and 82.37%. These findings suggest that raw text features are more informative for both models, and text preprocessing does not necessarily enhance model performance.
 
-## Installation
+## Acknowledgments
 
-To run this project, you need to have Python and the following libraries installed:
-- numpy
-- pandas
-- seaborn
-- matplotlib
-- scikit-learn
-- nltk
-- wordcloud
-
-- ## Acknowledgments
-
-The project was inspired by Yana Khare (https://www.analyticsvidhya.com/blog/2023/04/how-ai-is-revolutionizing-game-testing-in-2023/). 
-
+The project was inspired by Amrutha K blog [How to Build a Machine Learning Model to Distinguish If It’s Human or ChatGPT?](https://www.analyticsvidhya.com/blog/2023/04/how-to-build-a-machine-learning-model-to-distinguish-if-its-human-or-chatgpt/).
